@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Examples</title>
+  <style>
+  html,body{
+
+}
+body{
+  background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  .feed{
+    margin:15%;
+    width:50%;
+    height:300px;
+    border:50px double green;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feed-child {
+      width:90%;
+      height: 30%;
+      background-color: blue;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+
+.feed-grandchild {
+      width:20%;
+      height:68%;
+      border: 15px inset pink;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+        }
+
+.feed-grandchild-different{
+      width:20%;
+      height: 68%;
+      border: 15px outset pink;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+        }
+
+  </style>
+</head>
+<body>
+  <div class="feed">
+    <div class="feed-child">
+      <div class="feed-grandchild">1</div>
+      <div class="feed-grandchild-different">2</div>
+      <div class="feed-grandchild">3</div>
+    </div>
+
+  </div>
+
+</body>
+</html>
