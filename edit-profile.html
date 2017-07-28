@@ -27,34 +27,64 @@
 </input>
   </nav>
 
-<main class="edit">
-  <div class="edit-whitbox">
-    <div class="edit-header">
+<main id="edit-profile">
+  <div class="edit-profile__container">
+    <header class="edit-profile__header">
       <img src="images/pphoto1.png" />
-      <span class="explore__fullname"><h1>pink_fb7c7c</h1></span>
+      <!--h1에도 클레스를 붙일수있어!!-->
+      <h1 class="edit-profile__username">pink_fb7c7c</h1>
+    </header>
+    <form class="edit-profile__form">
+      <div class="edit-profile__row">
+        <label class="edit-profile__label" for="name">Name</label>
+           <input id="name" type="text" value="Nicolás Serrano Arévalo">
+         </div>
+         <div class="edit-profile__row">
+           <label class="edit-profile__label" for="username">UserName</label>
+              <input id="username" type="text" >
+            </div>
+         <div class="edit-profile__row">
+            <label class="edit-profile__label" for="website">Website</label>
+               <input id="website" type="url">
+            </div>
+         <div class="edit-profile__row">
+            <label class="edit-profile__label" for="bio">Bio</label>
+               <textarea id="bio"></textarea>
+            </div>
+         <div class="edit-profile__row">
+            <label class="edit-profile__label" for="email">Email</label>
+              <input id="email" type="email">
+            </div>
+
+
+
+            <!--sk durl까지 봤다-->
+
+        <div class="edit-profile__row">
+          <label class="edit-profile__label" for="phone-number">Phone Number</label>
+          <input id="phone-number" type="text">
+        </div>
+        <div class="edit-profile__row">
+          <label class="edit-profile__label" for="gender">Gender</label>
+          <select  id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="cant-remember" selected>Can't remember</option>
+          </select>
+        </div>
+        <div class="edit-profile__row">
+          <span class="edit-profile__label">Similar Account Suggestions</span>
+          <input id="similar" type="checkbox">
+          <label for="similar">Include your account when recommending similar accounts people might want to follow.</label>
+        </div>
+        <div class="edit-profile__row">
+          <span></span>
+          <input type="submit">
+        </div>
+      </form>
     </div>
-    <div class="edit-lists">
-      <ul class="edit-f-lists">
-        <li> <span class="edit-f-list">Name</span> <input type="text"></li>
-        <li> <span class="edit-f-list">Username</span> <input type="text"></li>
-        <li> <span class="edit-f-list">Website</span> <input type="text"></li>
-        <li> <span class="edit-f-list">Bio</span><textarea></textarea></li>
-        <li> <span class="edit-f-list">Email</span> <input type="email"></li>
-        <li> <span class="edit-f-list">Phone Number</span> <input type="text"></li>
-        <li> <span class="edit-f-list">Gender</span>
-          <!--????????-->
-        </li>
-        <li> <span class="edit-f-list">Similar <br> Account <br> Suggestions</span>
-          <input type="checkbox">
-          <span class="edit-b-list">Include your account when recommending similar <br> accounts people might want to follow.
-            <a href="#">[?]</a></span></li>
-      </ul>
-    </div>
-    <a href="#">
-      <input type="submit" value="Submit">
-    </a>
-  </div>
-</main>
+  </main>
+
 
   <footer>
     <nav class="footer__nav">
