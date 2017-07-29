@@ -15,10 +15,10 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
   .feed{
-    margin:15%;
     width:50%;
     height:300px;
     border:50px double green;
@@ -32,30 +32,25 @@ body{
       height: 30%;
       background-color: blue;
       display: flex;
-      align-items: center;
+      flex-flow: row-reverse;
       justify-content: space-between;
     }
 
 
 .feed-grandchild {
       width:20%;
+      background-color: white;
       height:68%;
       border: 15px inset pink;
-      background-color: white;
       display: flex;
       align-items: flex-end;
       justify-content: center;
 
         }
 
-.feed-grandchild-different{
-      width:20%;
-      height: 68%;
-      border: 15px outset pink;
-      background-color: white;
-      display: flex;
-      align-items: flex-end;
-      justify-content: center;
+.different{
+     border: outset pink;
+
         }
 
   </style>
@@ -64,7 +59,7 @@ body{
     <div class="feed">
       <div class="feed-child">
         <div class="feed-grandchild">1</div>
-        <div class="feed-grandchild-different">2</div>
+        <div class="feed-grandchild different">2</div>
         <div class="feed-grandchild">3</div>
   </div>
   </div>
