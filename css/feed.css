@@ -5,7 +5,7 @@
 
 .photo .photo__header {
   padding: 15px;
-/**  box-sizing: border-box;**/
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   font-weight: 600;
@@ -20,6 +20,10 @@
 
 .photo img {
   max-width: 100%;
+}
+
+.photo__smallphoto{
+  min-width: 100%;
 }
 
 .photo__info {
@@ -85,4 +89,4 @@
 
 .photo__add-comment-container i {
   cursor: pointer;
-}
+}ㅇ

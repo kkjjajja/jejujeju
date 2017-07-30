@@ -4,7 +4,6 @@
 }
 
 .explore__users {
-
 }
 
 .explore__users .explore__user {
@@ -14,8 +13,6 @@
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid rgba(0, 0, 0, .0975);
-  color: rgb(112, 62, 91);
-  background-color: rgb(249, 245, 245)
 }
 
 .explore__users .explore__user:last-child {
@@ -32,11 +29,32 @@
   height: 56px;
   border-radius: 50%;
   margin-right: 15px;
-  transition: transform 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transform-style: preserve-3d;
+  animation: 6s potato infinite ease-in-out;
 }
 
-.explore__user .explore__content img:hover{
-  transform: rotateY(180deg) rotate(1turn);
+@keyframes potato {
+  0% {
+    transform: none;
+  }
+  50%{
+    transform: rotateY(180deg);
+  }
+  100%{
+    transform: none;
+  }
+}
+
+@keyframes potato {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: none;
+  }
 }
 
 .explore__info .explore__username {
@@ -50,21 +68,20 @@
 }
 
 .explore__user button {
-  border: 0;
+  border: 1px solid #3897f0;
   border-radius: 3px;
   color: white;
   font-weight: 600;
-  background: #f269bc;
+  background: #3897f0;
   padding: 5px 10px;
   font-size: 14px;
   cursor: pointer;
-  transition: all 1s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .explore__user button:hover {
-  outline: none;
-  background: #feecec;
-  color:  #f269bc;
+  background: white;
+  color: #3897f0;
 }
 
 .explore__user button:focus {
