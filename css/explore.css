@@ -69,7 +69,11 @@
 
 .explore__user button {
 <<<<<<< HEAD
+<<<<<<< HEAD
   border: 1px solid #f269bc;
+=======
+  border: 1px solid #3897f0;
+>>>>>>> master
 =======
   border: 1px solid #3897f0;
 >>>>>>> master
@@ -80,6 +84,7 @@
   padding: 5px 10px;
   font-size: 14px;
   cursor: pointer;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   transition: all .5s ease-in-out;
@@ -96,6 +101,14 @@
   outline: none;
   background: #feecec;
   color:  #f269bc;
+>>>>>>> master
+=======
+  transition: all .5s ease-in-out;
+}
+
+.explore__user button:hover {
+  background: white;
+  color: #3897f0;
 >>>>>>> master
 =======
   transition: all .5s ease-in-out;
