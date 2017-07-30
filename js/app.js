@@ -33,6 +33,8 @@ $(document).ready(function() {
     // $(this).toggleClass("heart-clicked fa-heart fa-heart-o");
   });
 
+
+
 });
 
 // var weapons = ["Magic Wand", "The Legendary Sword","Hobbit Army"];
