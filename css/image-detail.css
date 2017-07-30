@@ -25,7 +25,12 @@ font-size: 12px;
 
 
 .phto img{
+<<<<<<< HEAD
 min-width:  100%;
+=======
+max-width: 100%;
+
+>>>>>>> master
 width: 100%;
 }
 
