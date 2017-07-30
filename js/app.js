@@ -34,6 +34,7 @@ $(document).ready(function() {
   });
 
 
+
 });
 
 // var weapons = ["Magic Wand", "The Legendary Sword","Hobbit Army"];
