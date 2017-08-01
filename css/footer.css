@@ -8,16 +8,18 @@ footer {
   font-weight: 600;
   text-transform: uppercase;
   font-size: 14px;
-  flex-wrap: wrap;
   margin-bottom: 55px;
+  flex-wrap: wrap;
 }
 
 footer .footer__list {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .footer__list .footer__item {
   margin-right: 10px;
+
 }
 
 .footer__item .footer__link {
