@@ -8,7 +8,6 @@
   margin-bottom: 60px;
 }
 
-
 .photo .photo__header {
   padding: 15px;
   box-sizing: border-box;
@@ -26,10 +25,6 @@
 
 .photo img {
   max-width: 100%;
-}
-
-.photo__smallphoto{
-  min-width: 100%;
 }
 
 .photo__info {

@@ -33,15 +33,12 @@
   animation: 6s potato infinite ease-in-out;
 }
 
-@keyframes potato {
-  0% {
+@keyframes horse {
+  to {
     transform: none;
   }
-  50%{
-    transform: rotateY(180deg);
-  }
-  100%{
-    transform: none;
+  from {
+    transform: rotateY(360deg);
   }
 }
 

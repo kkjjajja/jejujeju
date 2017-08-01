@@ -1,3 +1,3 @@
-# jejujeju
+# jejugram
 
-cloning instagram jejujejujeju
+Cloning Instagram for Nomad Coders 🇰🇷
